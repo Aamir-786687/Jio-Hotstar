@@ -1,5 +1,5 @@
 import React from 'react'
-import MoviesList from '../components/MoviesList/MoviesList';
+import MoviesList from '../components/MoviesList/MoviesList.jsx';
 
 
 const Movies = () => {
