@@ -1,0 +1,1121 @@
+{
+  "movies": [
+    {
+      "title": "The Shawshank Redemption",
+      "genre": "Fictional",
+      "release_date": "1994-09-23",
+      "rating": 9.3,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/51R0XUE2OAL._AC_UF894,1000_QL80_.jpg",
+      "director": "Frank Darabont",
+      "cast": [
+        "Tim Robbins",
+        "Morgan Freeman",
+        "Bob Gunton"
+      ],
+      "duration": 142,
+      "tags": [
+        "inspirational",
+        "prison",
+        "friendship"
+      ],
+      "description": "A heartwarming tale of hope and friendship set in Shawshank Prison, where Andy Dufresne, a banker falsely convicted of murder, finds solace and redemption through perseverance and an unlikely friendship with fellow inmate Red.",
+      "id": "01",
+      "fav": false
+    },
+    {
+      "title": "The Godfather",
+      "genre": "Crime",
+      "release_date": "1972-03-24",
+      "rating": 9.2,
+      "thumbnail_url": "https://image.tmdb.org/t/p/original/wWJbBo5yjw22AIjE8isBFoiBI3S.jpg",
+      "director": "Francis Ford Coppola",
+      "cast": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ],
+      "duration": 175,
+      "tags": [
+        "mafia",
+        "classic",
+        "family"
+      ],
+      "description": "A gripping saga of power, loyalty, and crime, following the Corleone family\u2019s rise and struggles in the Mafia underworld, led by patriarch Vito Corleone and his reluctant son Michael.",
+      "id": "02",
+      "fav": false
+    },
+    {
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "release_date": "2008-07-18",
+      "rating": 9.0,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/81IfoBox2TL.jpg",
+      "continue_Watch": "https://variety.com/wp-content/uploads/2013/08/the-dark-knight-christian-bale.jpg",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Heath Ledger",
+        "Aaron Eckhart"
+      ],
+      "duration": 152,
+      "tags": [
+        "superhero",
+        "dc",
+        "thriller"
+      ],
+      "description": "In this dark and thrilling superhero epic, Batman battles the chaos unleashed by his arch-nemesis, the Joker, while struggling with his own inner demons and the price of heroism.",
+      "id": "03",
+      "fav": true
+    },
+    {
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "release_date": "1994-10-14",
+      "rating": 8.9,
+      "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFUXiwgBsUeyPkY-Fzh4ZzI4gDhJ5_e2Nn-g&s",
+      "director": "Quentin Tarantino",
+      "cast": [
+        "John Travolta",
+        "Uma Thurman",
+        "Samuel L. Jackson"
+      ],
+      "duration": 154,
+      "tags": [
+        "non-linear",
+        "cult",
+        "dialogue"
+      ],
+      "description": "A wildly original, non-linear narrative that intertwines multiple stories of crime, violence, and redemption, centered around a cast of colorful, morally complex characters in Los Angeles.",
+      "id": "04",
+      "fav": false
+    },
+    {
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "release_date": "1994-07-06",
+      "rating": 8.8,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/61LjRzEu9US.jpg",
+      "director": "Robert Zemeckis",
+      "cast": [
+        "Tom Hanks",
+        "Robin Wright",
+        "Gary Sinise"
+      ],
+      "duration": 142,
+      "tags": [
+        "inspirational",
+        "life journey",
+        "friendship"
+      ],
+      "description": "The life story of Forrest Gump, a kind-hearted man with a low IQ, who unwittingly influences major historical events while pursuing his dreams and spreading positivity to everyone he meets.",
+      "id": "05",
+      "fav": false
+    },
+    {
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "release_date": "2010-07-16",
+      "rating": 8.8,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/71thFiIUSpL._AC_UF894,1000_QL80_.jpg",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Ellen Page"
+      ],
+      "duration": 148,
+      "tags": [
+        "mind-bending",
+        "thriller",
+        "dream"
+      ],
+      "description": " A mind-bending sci-fi thriller that follows a skilled thief, Dom Cobb, who specializes in extracting secrets from deep within the subconscious. Tasked with planting an idea instead of stealing one, Cobb navigates the perilous world of dreams and reality.",
+      "id": "06",
+      "fav": false
+    },
+    {
+      "title": "Fight Club",
+      "genre": "Drama",
+      "release_date": "1999-10-15",
+      "rating": 8.8,
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/6585bef7a2ae5d32f8760cfb-fight-club-movie-poster-1-wall-art.jpg",
+      "director": "David Fincher",
+      "cast": [
+        "Brad Pitt",
+        "Edward Norton",
+        "Helena Bonham Carter"
+      ],
+      "duration": 139,
+      "tags": [
+        "psychological",
+        "cult",
+        "anti-establishment"
+      ],
+      "description": "A dark and provocative film about an insomniac office worker who forms an underground fight club as a form of male bonding, only to see it spiral into anarchic violence and personal discovery.",
+      "id": "07",
+      "fav": false
+    },
+    {
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "release_date": "1999-03-31",
+      "rating": 8.7,
+      "thumbnail_url": "https://rukminim2.flixcart.com/image/850/1000/kmns7m80/poster/l/p/f/medium-the-matrix-an-american-maxi-origins-jumbo-medium-size-original-imagfgb6gx9yhwzs.jpeg?q=90&crop=false",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss"
+      ],
+      "duration": 136,
+      "tags": [
+        "simulation",
+        "cyberpunk",
+        "revolution"
+      ],
+      "description": "A cyberpunk sci-fi classic where a computer hacker, Neo, discovers that reality is a simulation controlled by machines. With the help of rebels, he fights to awaken humanity and free them from the artificial world.",
+      "id": "08",
+      "fav": false
+    },
+    {
+      "title": "Goodfellas",
+      "genre": "Crime",
+      "release_date": "1990-09-19",
+      "rating": 8.7,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/81uOV6oMYtL.jpg",
+      "director": "Martin Scorsese",
+      "cast": [
+        "Robert De Niro",
+        "Ray Liotta",
+        "Joe Pesci"
+      ],
+      "duration": 146,
+      "tags": [
+        "mafia",
+        "based on true story",
+        "violence"
+      ],
+      "description": " A gripping crime drama chronicling the rise and fall of Henry Hill, a mob associate, as he navigates the dangerous and alluring world of the Mafia. A tale of power, betrayal, and survival.",
+      "id": "09",
+      "fav": false
+    },
+    {
+      "title": "The Lord of the Rings",
+      "genre": "Fantasy",
+      "release_date": "2003-12-17",
+      "rating": 8.9,
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/634d3a816c5d2a5aa35bba03-poster-stop-online-the-lord-of-the-rings.jpg",
+      "director": "Peter Jackson",
+      "cast": [
+        "Elijah Wood",
+        "Viggo Mortensen",
+        "Ian McKellen"
+      ],
+      "duration": 201,
+      "tags": [
+        "epic",
+        "adventure",
+        "fantasy"
+      ],
+      "description": "The epic conclusion to the Lord of the Rings trilogy, where the forces of good rally for a final battle against Sauron, and Frodo\u2019s perilous journey to destroy the One Ring reaches its climax.",
+      "id": "10",
+      "fav": false
+    },
+    {
+      "title": "The Lion King",
+      "genre": "Animation",
+      "release_date": "1994-06-24",
+      "rating": 8.5,
+      "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nP2KvFonkVUimShO9DfZiJ3YutVYnNPCAA&s",
+      "continue_Watch": "https://media.cntraveller.com/photos/675713f6766208216638f4ff/3:2/w_1557,h_1038,c_limit/Mufasa-still-disney-dec24-pr.jpeg",
+      "director": "Roger Allers, Rob Minkoff",
+      "cast": [
+        "Matthew Broderick",
+        "Jeremy Irons",
+        "James Earl Jones"
+      ],
+      "duration": 88,
+      "tags": [
+        "disney",
+        "family",
+        "animated"
+      ],
+      "description": "A heartwarming animated adventure about Simba, a young lion prince who must embrace his destiny and reclaim his rightful place as king after the betrayal of his uncle, Scar.",
+      "id": "11",
+      "fav": true
+    },
+    {
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "release_date": "2014-11-07",
+      "rating": 8.6,
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/6352289f38bb253c44612d53-interstellar-movie-poster-24-x-36-inches.jpg",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain"
+      ],
+      "duration": 169,
+      "tags": [
+        "space",
+        "time travel",
+        "epic"
+      ],
+      "description": "A visually stunning space epic where a group of astronauts embarks on a journey through a wormhole to find a new habitable planet, as Earth faces an impending environmental collapse.",
+      "id": "12",
+      "fav": false
+    },
+    {
+      "title": "Gladiator",
+      "genre": "Drama",
+      "release_date": "2000-05-05",
+      "rating": 8.5,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/816ibBoB3ML.jpg",
+      "director": "Ridley Scott",
+      "cast": [
+        "Russell Crowe",
+        "Joaquin Phoenix",
+        "Connie Nielsen"
+      ],
+      "duration": 155,
+      "tags": [
+        "ancient rome",
+        "epic",
+        "revenge"
+      ],
+      "description": "A gripping tale of a betrayed Roman general who rises as a gladiator to seek vengeance against the corrupt emperor who murdered his family and seized the throne.",
+      "id": "13",
+      "fav": false
+    },
+    {
+      "title": "The Prestige",
+      "genre": "Drama",
+      "release_date": "2006-10-20",
+      "rating": 8.5,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/81DfM0zgWHL.jpg",
+      "director": "Christopher Nolan",
+      "cast": [
+        "Christian Bale",
+        "Hugh Jackman",
+        "Scarlett Johansson"
+      ],
+      "duration": 130,
+      "tags": [
+        "magic",
+        "rivalry",
+        "mystery"
+      ],
+      "description": "A mesmerizing tale of two rival magicians in Victorian-era London, whose obsession with outperforming each other leads to tragic consequences and astonishing illusions.",
+      "id": "14",
+      "fav": false
+    },
+    {
+      "title": "The Green Mile",
+      "genre": "Drama",
+      "release_date": "1999-12-10",
+      "rating": 8.6,
+      "thumbnail_url": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24429_p_v12_bf.jpg",
+      "continue_Watch": "https://www.hollywoodreporter.com/wp-content/uploads/2019/10/the_green_mile_-_h_-_1999.jpg?w=1296&h=730&crop=1",
+      "director": "Frank Darabont",
+      "cast": [
+        "Tom Hanks",
+        "Michael Clarke Duncan",
+        "David Morse"
+      ],
+      "duration": 189,
+      "tags": [
+        "prison",
+        "supernatural",
+        "compassion"
+      ],
+      "description": "A touching and supernatural drama about a death row corrections officer who encounters an inmate with an extraordinary gift that changes his perception of justice and humanity.",
+      "id": "15",
+      "fav": true
+    },
+    {
+      "title": "Schindler's List",
+      "genre": "History",
+      "release_date": "1993-12-15",
+      "rating": 9.0,
+      "thumbnail_url": "https://www.tallengestore.com/cdn/shop/files/SchindlersList_1993_-StevenSpielberg-HollywoodClassicWarMoviePoster_51fb7da0-d6da-4403-8d22-6cec8963a1fe.jpg?v=1732608508",
+      "director": "Steven Spielberg",
+      "cast": [
+        "Liam Neeson",
+        "Ralph Fiennes",
+        "Ben Kingsley"
+      ],
+      "duration": 195,
+      "tags": [
+        "holocaust",
+        "war",
+        "based on true story"
+      ],
+      "description": "A harrowing yet inspiring historical drama based on the true story of Oskar Schindler, a German businessman who saved over a thousand Jewish refugees during the Holocaust.",
+      "id": "16",
+      "fav": false
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "genre": "Thriller",
+      "release_date": "1991-02-14",
+      "rating": 8.6,
+      "thumbnail_url": "https://mondoshop.com/cdn/shop/files/Nate.Sweitzer_Silence.of.the.Lambs_large_1_ac828500-8458-47af-9eb3-3ffe4abe34b9.jpg?v=1705361598",
+      "director": "Jonathan Demme",
+      "cast": [
+        "Jodie Foster",
+        "Anthony Hopkins",
+        "Scott Glenn"
+      ],
+      "duration": 118,
+      "tags": [
+        "psychological thriller",
+        "crime",
+        "serial killer"
+      ],
+      "description": "A tense psychological thriller where young FBI trainee Clarice Starling seeks the help of brilliant but psychotic cannibal, Dr. Hannibal Lecter, to catch a serial killer known as Buffalo Bill.",
+      "id": "17",
+      "fav": false
+    },
+    {
+      "title": "Saving Private Ryan",
+      "genre": "War",
+      "release_date": "1998-07-24",
+      "rating": 8.6,
+      "thumbnail_url": "https://i.pinimg.com/474x/d9/03/67/d9036710e387d04fb5c74d37159972a9.jpg",
+      "director": "Steven Spielberg",
+      "cast": [
+        "Tom Hanks",
+        "Matt Damon",
+        "Tom Sizemore"
+      ],
+      "duration": 169,
+      "tags": [
+        "ww2",
+        "soldiers",
+        "heroism"
+      ],
+      "description": "A powerful war film following a squad of American soldiers during World War II as they embark on a dangerous mission to rescue a paratrooper whose brothers have all been killed in action.",
+      "id": "18",
+      "fav": false
+    },
+    {
+      "title": "The Departed",
+      "genre": "Crime",
+      "release_date": "2006-10-06",
+      "rating": 8.5,
+      "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQ1dWY0PmwXZzlJiSJcqzD_R34MV4MTQ4CA&s",
+      "director": "Martin Scorsese",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Matt Damon",
+        "Jack Nicholson"
+      ],
+      "duration": 151,
+      "tags": [
+        "mafia",
+        "undercover",
+        "betrayal"
+      ],
+      "description": "An intense crime thriller following an undercover cop infiltrating the Irish mob and a mole inside the police force, as both race against time to expose each other.",
+      "id": "19",
+      "fav": false
+    },
+    {
+      "title": "Whiplash",
+      "genre": "Drama",
+      "release_date": "2014-10-10",
+      "rating": 8.5,
+      "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZQYke1hgTSW5mwGD7Ihggs20mD3Rg7rj7w&s",
+      "director": "Damien Chazelle",
+      "cast": [
+        "Miles Teller",
+        "J.K. Simmons",
+        "Paul Reiser"
+      ],
+      "duration": 106,
+      "tags": [
+        "music",
+        "passion",
+        "mentor"
+      ],
+      "description": "A gripping drama about an ambitious young drummer and his ruthless music instructor, whose intense mentorship pushes him to the brink of greatness and madness.",
+      "id": "20",
+      "fav": false
+    },
+    {
+      "title": "The Wolf of Wall Street",
+      "genre": "Biography",
+      "release_date": "2013-12-25",
+      "rating": 8.2,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/71Cj5nIMGQL._AC_UF1000,1000_QL80_.jpg",
+      "director": "Martin Scorsese",
+      "cast": [
+        "Leonardo DiCaprio",
+        "Jonah Hill",
+        "Margot Robbie"
+      ],
+      "duration": 180,
+      "tags": [
+        "finance",
+        "rise and fall",
+        "based on true story"
+      ],
+      "description": "A wild and outrageous true story of Jordan Belfort, a stockbroker who rose to immense wealth through fraud and excess, only to face a spectacular downfall.",
+      "id": "21",
+      "fav": false
+    },
+    {
+      "title": "The Social Network",
+      "genre": "Biography",
+      "release_date": "2010-10-01",
+      "rating": 7.7,
+      "thumbnail_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLPUS6wt8uRWkFHZNUskykvHf-dS3GRqUSjQ&s",
+      "director": "David Fincher",
+      "cast": [
+        "Jesse Eisenberg",
+        "Andrew Garfield",
+        "Justin Timberlake"
+      ],
+      "duration": 120,
+      "tags": [
+        "technology",
+        "facebook",
+        "entrepreneurship"
+      ],
+      "description": "A riveting drama about the creation of Facebook and the power struggles that ensued, highlighting the ambition, betrayal, and genius behind one of the biggest tech revolutions.",
+      "id": "22",
+      "fav": false
+    },
+    {
+      "title": "Parasite",
+      "genre": "Thriller",
+      "release_date": "2019-05-30",
+      "rating": 8.6,
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/6364358337da3701121dc9f4-parasite-2019-movie-poster-24x36-inches.jpg",
+      "director": "Bong Joon Ho",
+      "cast": [
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong"
+      ],
+      "duration": 132,
+      "tags": [
+        "social commentary",
+        "class divide",
+        "korean"
+      ],
+      "description": " A dark social thriller about a poor family infiltrating the lives of a wealthy household through deception, only to face unforeseen consequences as their two worlds collide.",
+      "id": "23",
+      "fav": false
+    },
+    {
+      "title": "Django Unchained",
+      "genre": "Western",
+      "release_date": "2012-12-25",
+      "rating": 8.4,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
+      "director": "Quentin Tarantino",
+      "cast": [
+        "Jamie Foxx",
+        "Christoph Waltz",
+        "Leonardo DiCaprio"
+      ],
+      "duration": 165,
+      "tags": [
+        "revenge",
+        "slavery",
+        "action"
+      ],
+      "description": "A thrilling and action-packed Western about a freed slave who teams up with a bounty hunter to rescue his wife and take vengeance on brutal slave owners.",
+      "id": "24",
+      "fav": false
+    },
+    {
+      "title": "Mad Max: Fury Road",
+      "genre": "Action",
+      "release_date": "2015-05-15",
+      "rating": 8.1,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/61Ln-qDnBnL.jpg",
+      "continue_Watch": "https://static1.srcdn.com/wordpress/wp-content/uploads/2024/04/mad-max-fury-road-beggining-tom-hardy.jpg",
+      "director": "George Miller",
+      "cast": [
+        "Tom Hardy",
+        "Charlize Theron",
+        "Nicholas Hoult"
+      ],
+      "duration": 120,
+      "tags": [
+        "post-apocalyptic",
+        "car chase",
+        "survival"
+      ],
+      "description": "A high-octane action spectacle set in a post-apocalyptic wasteland, where a rebel warrior and a drifter must escape a tyrannical warlord and his deadly followers.",
+      "id": "25",
+      "fav": true
+    },
+    {
+      "title": "La La Land",
+      "genre": "Musical",
+      "release_date": "2016-12-09",
+      "rating": 8.0,
+      "thumbnail_url": "https://www.tallengestore.com/cdn/shop/products/LalaLand1_d8e6c61d-2a83-4bd1-927a-07dc20c4293b.jpg?v=1568977047",
+      "director": "Damien Chazelle",
+      "cast": [
+        "Ryan Gosling",
+        "Emma Stone",
+        "John Legend"
+      ],
+      "duration": 128,
+      "tags": [
+        "romance",
+        "music",
+        "hollywood"
+      ],
+      "description": "A dazzling and emotional musical about an aspiring actress and a jazz musician whose love story unfolds against the backdrop of Los Angeles and the pursuit of dreams.",
+      "id": "26",
+      "fav": false
+    },
+    {
+      "title": "Joker",
+      "genre": "Crime",
+      "release_date": "2019-10-04",
+      "rating": 8.4,
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/6345f652ec87e81aa558cd24-ubuy-online-shopping.jpg",
+      "director": "Todd Phillips",
+      "cast": [
+        "Joaquin Phoenix",
+        "Robert De Niro",
+        "Zazie Beetz"
+      ],
+      "duration": 122,
+      "tags": [
+        "psychological",
+        "dark",
+        "dc"
+      ],
+      "description": "A haunting origin story of the Joker, chronicling the transformation of a troubled comedian into Gotham\u2019s most infamous criminal mastermind, driven by society\u2019s neglect and cruelty.",
+      "id": "27",
+      "fav": false
+    },
+    {
+      "title": "The Grand Budapest Hotel",
+      "genre": "Comedy",
+      "release_date": "2014-03-28",
+      "rating": 8.1,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/713kiC-8JhL.jpg",
+      "director": "Wes Anderson",
+      "cast": [
+        "Ralph Fiennes",
+        "Tony Revolori",
+        "Adrien Brody"
+      ],
+      "duration": 99,
+      "tags": [
+        "adventure",
+        "comedy",
+        "stylized"
+      ],
+      "description": "A quirky and visually stunning comedy about the adventures of a legendary concierge and his loyal prot\u00e9g\u00e9 as they navigate a series of eccentric and criminal escapades.",
+      "id": "28",
+      "fav": false
+    },
+    {
+      "title": "The Intouchables",
+      "genre": "Biography",
+      "release_date": "2011-11-02",
+      "rating": 8.5,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_FMjpg_UX1000_.jpg",
+      "director": "Olivier Nakache, ric Toledano",
+      "cast": [
+        "Franois Cluzet",
+        "Omar Sy",
+        "Anne Le Ny"
+      ],
+      "duration": 112,
+      "tags": [
+        "friendship",
+        "based on true story",
+        "uplifting"
+      ],
+      "description": "An uplifting true story about the unlikely friendship between a wealthy quadriplegic and his carefree caregiver, who brings joy and spontaneity into his structured life.",
+      "id": "29",
+      "fav": false
+    },
+    {
+      "title": "A Beautiful Mind",
+      "genre": "Biography",
+      "release_date": "2001-12-21",
+      "rating": 8.2,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BNzljZTk5ZDgtZTQ1Zi00NTM4LThlOGUtZDk2MGM4NDQ4NWQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "director": "Ron Howard",
+      "cast": [
+        "Russell Crowe",
+        "Ed Harris",
+        "Jennifer Connelly"
+      ],
+      "duration": 135,
+      "tags": [
+        "mathematics",
+        "psychology",
+        "inspiration"
+      ],
+      "description": "A gripping biographical drama about John Nash, a brilliant mathematician struggling with schizophrenia, whose groundbreaking work reshaped modern economics.",
+      "id": "30",
+      "fav": false
+    },
+    {
+      "title": "Spirited Away",
+      "genre": "Animation",
+      "release_date": "2001-07-20",
+      "rating": 8.6,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/81m8urzEz4L.jpg",
+      "director": "Hayao Miyazaki",
+      "cast": [
+        "Rumi Hiiragi",
+        "Miyu Irino",
+        "Mari Natsuki"
+      ],
+      "duration": 125,
+      "tags": [
+        "anime",
+        "fantasy",
+        "adventure"
+      ],
+      "description": "A magical adventure following a young girl who becomes trapped in a mysterious spirit world, where she must find the courage to free herself and her parents.",
+      "id": "31",
+      "fav": false
+    },
+    {
+      "title": "Gangs of Wasseypur",
+      "genre": "Crime",
+      "release_date": "2012-06-22",
+      "rating": 8.2,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/A1CBx9ffNxL.jpg",
+      "continue_Watch": "https://static.toiimg.com/thumb/msid-112364860,width-1280,height-720,resizemode-4/112364860.jpg",
+      "director": "Anurag Kashyap",
+      "cast": [
+        "Manoj Bajpayee",
+        "Nawazuddin Siddiqui",
+        "Richa Chadha"
+      ],
+      "duration": 321,
+      "tags": [
+        "gang wars",
+        "revenge",
+        "crime drama"
+      ],
+      "description": "A gripping saga of power, crime, and vengeance set in the coal mafia-ridden town of Wasseypur, spanning multiple generations.",
+      "id": "32",
+      "fav": true
+    },
+    {
+      "title": "Taare Zameen Par",
+      "genre": "Drama",
+      "release_date": "2007-12-21",
+      "rating": 8.4,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/611JgDfdb7L.jpg",
+      "continue_Watch": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBglSi2F8QL1NjRmvmTyFESZkq9KfXyKwBSg&s",
+      "director": "Aamir Khan",
+      "cast": [
+        "Darsheel Safary",
+        "Aamir Khan",
+        "Tisca Chopra"
+      ],
+      "duration": 165,
+      "tags": [
+        "education",
+        "inspiration",
+        "child psychology"
+      ],
+      "description": "An 8-year-old dyslexic boy struggles in school until an unconventional teacher helps him discover his hidden potential.",
+      "id": "33",
+      "fav": true
+    },
+    {
+      "title": "Sacred Games",
+      "genre": "Crime, Thriller",
+      "release_date": "2018-07-06",
+      "rating": 8.5,
+      "thumbnail_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ecde0e70804199.5baf99ea34f28.jpg",
+      "director": "Anurag Kashyap, Vikramaditya Motwane",
+      "cast": [
+        "Saif Ali Khan",
+        "Nawazuddin Siddiqui",
+        "Radhika Apte"
+      ],
+      "duration": 16,
+      "tags": [
+        "crime",
+        "thriller",
+        "mystery"
+      ],
+      "description": "A Mumbai cop's pursuit of a criminal mastermind leads to a conspiracy with apocalyptic consequences.",
+      "id": "34",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Mirzapur",
+      "genre": "Action, Crime, Thriller",
+      "release_date": "2018-11-16",
+      "rating": 8.3,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/815P1fCHvjL._AC_UF1000,1000_QL80_.jpg",
+      "director": "Karan Anshuman, Gurmmeet Singh",
+      "cast": [
+        "Pankaj Tripathi",
+        "Ali Fazal",
+        "Divyenndu"
+      ],
+      "duration": 19,
+      "tags": [
+        "gang wars",
+        "revenge",
+        "power"
+      ],
+      "description": "A lawless town is ruled by a mafia don, and two brothers get caught in the crossfire of crime and ambition.",
+      "id": "35",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Panchayat",
+      "genre": "Comedy, Drama",
+      "release_date": "2020-04-03",
+      "rating": 8.9,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BYzkwZGNkYTctZDc2MS00OWM2LWI2NTUtMTM2ZGMzMTY0N2Q1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "director": "Deepak Kumar Mishra",
+      "cast": [
+        "Jitendra Kumar",
+        "Raghubir Yadav",
+        "Neena Gupta"
+      ],
+      "duration": 16,
+      "tags": [
+        "rural life",
+        "humor",
+        "social issues"
+      ],
+      "description": "An engineering graduate takes up a low-paying government job in a rural village, leading to unexpected adventures.",
+      "id": "36",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Kota Factory",
+      "genre": "Drama",
+      "release_date": "2019-04-16",
+      "rating": 9.0,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BY2U5MjY1NWEtZDI2MS00NTlhLWEyODQtYzE0MzY3NDUyNzE3XkEyXkFqcGc@._V1_.jpg",
+      "director": "Raghav Subbu",
+      "cast": [
+        "Mayur More",
+        "Jitendra Kumar",
+        "Ranjan Raj"
+      ],
+      "duration": 15,
+      "tags": [
+        "education",
+        "student life",
+        "inspiration"
+      ],
+      "description": "A realistic take on the struggles of students preparing for the IIT entrance exam in Kota.",
+      "id": "37",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Asur",
+      "genre": "Mystery, Thriller",
+      "release_date": "2020-03-02",
+      "rating": 8.4,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDZkOGQzMjItNTliOC00NTIxLTg4ODEtNTMxZWY1OTk5ZWM0XkEyXkFqcGc@._V1_.jpg",
+      "director": "Oni Sen",
+      "cast": [
+        "Arshad Warsi",
+        "Barun Sobti",
+        "Anupriya Goenka"
+      ],
+      "duration": 16,
+      "tags": [
+        "crime",
+        "psychological thriller",
+        "mythology"
+      ],
+      "description": "A unique blend of mythology and crime, where a serial killer challenges forensic experts in a deadly mind game.",
+      "id": "38",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "The Family Man",
+      "genre": "Action, Thriller",
+      "release_date": "2019-09-20",
+      "rating": 8.7,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDc3NWMwNGMtYjc3Mi00NzU5LWFiYjgtMTJjZGE3ZmFiNzRjXkEyXkFqcGc@._V1_.jpg",
+      "director": "Raj & DK",
+      "cast": [
+        "Manoj Bajpayee",
+        "Priyamani",
+        "Sharib Hashmi"
+      ],
+      "duration": 19,
+      "tags": [
+        "spy thriller",
+        "terrorism",
+        "family drama"
+      ],
+      "description": "A middle-class man secretly works as an intelligence officer, balancing his family life with high-stakes missions.",
+      "id": "39",
+      "fav": false,
+      "Binge": true
+    },
+    {
+      "title": "Sanam Teri Kasam",
+      "genre": "Drama",
+      "release_date": "2016-02-05",
+      "rating": 7.3,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/sanamterikasamtv-1697792959329-1716308995775.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5381/1736849725381-t",
+      "director": "Radhika Rao, Vinay Sapru",
+      "cast": [
+        "Harshvardhan Rane",
+        "Mawra Hocane",
+        "Vijay Raaz"
+      ],
+      "duration": 154,
+      "tags": [
+        "romantic drama",
+        "tragic love story",
+        "music-driven"
+      ],
+      "description": "A heartfelt love story of a misunderstood girl and a rugged yet kind-hearted man, bound together by fate and tragedy.",
+      "id": 4,
+      "fav": false,
+      "language": "Hindi"
+    }
+    
+  ],
+  "Shows": [
+    {
+      "title": "Laughter Chef",
+      "genre": "Comedy",
+      "release_date": "2024-03-15",
+      "id": 1,
+      "rating": 7.5,
+      "thumbnail_url": "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5371/1740560295371-i",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
+      "director": "Rajeev Mehta",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Raodies",
+      "genre": "Reality",
+      "release_date": "2003-10-01",
+      "id": 2,
+      "rating": 7.2,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/verticaltv-1739443658455.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6262/1741440046262-t",
+      "director": "Raghu Ram",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Pokemon",
+      "genre": "Animation",
+      "release_date": "1997-04-01",
+      "id": 3,
+      "rating": 8.1,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/pokemon-1707725560430.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6940/1734433856940-t",
+      "director": "Kunihiko Yuyama",
+      "fav": true,
+      "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "Big Boss",
+      "genre": "Reality",
+      "release_date": "2006-11-03",
+      "id": 4,
+      "rating": 6.9,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/tv-1737455056722.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6551/1737622856551-t",
+      "director": "Endemol Shine India",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "Asur",
+      "genre": "Mystery, Thriller",
+      "release_date": "2020-03-02",
+      "id": 5,
+      "rating": 8.5,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDZkOGQzMjItNTliOC00NTIxLTg4ODEtNTMxZWY1OTk5ZWM0XkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6334/1735212596334-t",
+      "director": "Oni Sen",
+      "fav": false,
+      "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "Fifty Shades of Grey",
+      "genre": "Drama",
+      "release_date": "2015-02-13",
+      "id": 6,
+      "rating": 4.1,
+      "thumbnail_url": "https://v3img.voot.com/resizeMedium,w_914,h_514/v3Storage/assets/vertical-carousel-tv_50shades-1727778969348.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9124/1739443359124-t",
+      "director": "Sam Taylor-Johnson",
+      "fav": true,
+      "language": "Hin, Eng, +2 more"
+    },
+    {
+      "title": "The Family Man",
+      "genre": "Action, Thriller",
+      "id": 7,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BMDc3NWMwNGMtYjc3Mi00NzU5LWFiYjgtMTJjZGE3ZmFiNzRjXkEyXkFqcGc@._V1_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/4865/1740560324865-t",
+      "rating": 8.7,
+      "release_date": "2019-09-20",
+      "director": "Raj & DK",
+      "fav": true,
+      "language": "Hindi"
+    },    
+    {
+      "title": "Kota Factory",
+      "genre": "Drama",
+      "release_date": "2019-04-16",
+      "id": 8,
+      "rating": 9.0,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BY2U5MjY1NWEtZDI2MS00NTlhLWEyODQtYzE0MzY3NDUyNzE3XkEyXkFqcGc@._V1_.jpg",
+      "director": "Raghav Subbu"
+    },
+    {
+      "title": "Stranger Things",
+      "genre": "Sci-Fi, Thriller",
+      "id": 9,
+      "thumbnail_url": "https://rukminim3.flixcart.com/image/850/1000/jr3t5e80/poster/a/w/f/medium-stranger-things-poster-for-room-office-13-inch-x-19-inch-original-imafcww8v99r4qhh.jpeg?q=20&crop=false",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5402/1740560335402-t",
+      "rating": 8.7,
+      "release_date": "2016-07-15",
+      "director": "Duffer Brothers",
+      "fav": true,
+      "language": "Eng, Hin"
+    },
+    {
+      "title": "Scam 1992",
+      "genre": "Biography, Crime",
+      "id": 10,
+      "thumbnail_url": "https://images.slivcdn.com/videoasset_images/scam1992_3june_portrait_thumb.jpg?w=172&q=high",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/8501/1739368298501-t",
+      "rating": 9.4,
+      "release_date": "2020-10-09",
+      "director": "Hansal Mehta",
+      "fav": true,
+      "language": "Hindi"
+    },
+    {
+      "title": "The Crown",
+      "genre": "Biography, Drama",
+      "id": 11,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/71f97nf-u9L._AC_UF1000,1000_QL80_.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6304/1737609446304-t",
+      "rating": 8.6,
+      "release_date": "2016-11-04",
+      "director": "Peter Morgan",
+      "fav": false,
+      "language": "Eng"
+    },
+    {
+      "title": "Made in Heaven",
+      "genre": "Drama",
+      "id": 12,
+      "thumbnail_url": "https://i.pinimg.com/564x/d3/c2/db/d3c2dbfafce1557ad2e162853b5891bb.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/5107/1739967545107-t",
+      "rating": 8.3,
+      "release_date": "2019-03-08",
+      "director": "Zoya Akhtar, Prashant Nair",
+      "fav": true,
+      "language": "Hindi, Eng"
+    },
+    {
+      "title": "Peaky Blinders",
+      "genre": "Crime, Drama",
+      "id": 13,
+      "thumbnail_url": "https://rukminim2.flixcart.com/image/850/1000/k0y6cnk0/poster/9/f/6/medium-peaky-blinders-tv-series-poster-for-room-office-13-inch-x-original-imafkm3uhgwyy3gn.jpeg?q=20&crop=false",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/7772/1740560217772-t",
+      "rating": 8.8,
+      "release_date": "2013-09-12",
+      "director": "Steven Knight",
+      "fav": false,
+      "language": "Eng"
+    },
+    {
+      "title": "Panchayat",
+      "genre": "Comedy, Drama",
+      "release_date": "2020-04-03",
+      "id": 14,
+      "rating": 8.9,
+      "thumbnail_url": "https://m.media-amazon.com/images/M/MV5BYzkwZGNkYTctZDc2MS00OWM2LWI2NTUtMTM2ZGMzMTY0N2Q1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "director": "Deepak Kumar Mishra",
+      "fav": true
+    },
+    {
+      "title": "The Vampire Diaries",
+      "genre": "Fantasy, Romance",
+      "id": 15,
+      "thumbnail_url": "https://images-cdn.ubuy.co.in/633fece25c6f80247146a2a3-the-vampire-diaries-poster-frameless.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9261/1739368319261-t",
+      "rating": 7.7,
+      "release_date": "2009-09-10",
+      "director": "Julie Plec, Kevin Williamson",
+      "fav": true,
+      "language": "Eng, Hin"
+    },
+    {
+      "title": "Brooklyn Nine-Nine",
+      "genre": "Comedy, Crime",
+      "id": 16,
+      "thumbnail_url": "https://rukminim2.flixcart.com/image/850/1000/jsrtn680/poster/p/j/a/medium-brooklyn99c-brooklyn-nine-nine-tv-show-poster-for-room-original-imafe9nznefmvz8c.jpeg?q=90&crop=false",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/9404/1739443449404-t",
+      "rating": 8.4,
+      "release_date": "2013-09-17",
+      "director": "Michael Schur, Dan Goor",
+      "fav": false,
+      "language": "Eng"
+    },
+    {
+      "title": "The Night Manager (India)",
+      "genre": "Thriller",
+      "id": 17,
+      "thumbnail_url": "https://upload.wikimedia.org/wikipedia/en/4/4c/The_Night_Manager_%28Indian_TV_series%29.jpg",
+      "logo": "https://img10.hotstar.com/image/upload/f_auto,h_156/sources/r1/cms/prod/6825/1737609506825-t",
+      "rating": 7.6,
+      "release_date": "2023-02-17",
+      "director": "Sandeep Modi",
+      "fav": false,
+      "language": "Hindi"
+    },
+    {
+      "title": "Sacred Games",
+      "genre": "Crime, Thriller",
+      "release_date": "2018-07-06",
+      "rating": 8.5,
+      "id": 18,
+      "thumbnail_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ecde0e70804199.5baf99ea34f28.jpg",
+      "director": "Anurag Kashyap, Vikramaditya Motwane",
+      "fav": false
+      
+    },
+    {
+      "title": "Mirzapur",
+      "genre": "Action, Crime, Thriller",
+      "release_date": "2018-11-16",
+      "rating": 8.3,
+      "id": 19,
+      "thumbnail_url": "https://m.media-amazon.com/images/I/815P1fCHvjL._AC_UF1000,1000_QL80_.jpg",
+      "fav": false
+      
+    }
+  ]
+}

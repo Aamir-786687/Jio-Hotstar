@@ -1,0 +1,45 @@
+.featuresShows {
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.featuresShows > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: .5s;
+}
+
+.featuresShows > img:hover {
+  transform: scale(1.05);
+}
+
+.movieTitle {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  align-self: flex-end;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+  bottom: 0;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.movieTitle:hover {
+  height: 70px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+

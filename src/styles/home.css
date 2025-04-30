@@ -1,0 +1,322 @@
+.home-container {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  color: white;
+}
+
+.hero-banner {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.7) 30%,
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+}
+
+.hero-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.movie-title-container {
+  max-width: 600px;
+}
+
+.movie-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #f5c518, #e2b616);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.newly-added {
+  display: inline-block;
+  color: #3a9bdc;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.movie-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+}
+
+.dot {
+  opacity: 0.6;
+}
+
+.rating {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.movie-description {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.genre-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.watch-now-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(to right, #0072ff, #ff00c8);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.watch-now-btn:hover {
+  transform: scale(1.05);
+}
+
+.add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.content-section {
+  padding: 0 5%;
+  margin-bottom: 40px;
+}
+
+.content-section > img{
+  margin-left: 100px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.continue-watching {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+}
+
+
+.continue-watching::-webkit-scrollbar {
+  height: 5px;
+}
+
+.continue-watching::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.continue-watching::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.continue-item {
+  position: relative;
+  min-width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #1a1a1a;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.continue-item img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+/* Hover Overlay */
+.continue-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.continue-item:hover .continue-overlay {
+  opacity: 1;
+}
+
+/* View More & Continue Watching Buttons */
+.overlay-btn {
+  background-color: linear-gradient(to right, #0072ff, #ff00c8);
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.overlay-btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+
+.progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+} 
+
+ .progress {
+  height: 100%;
+  background-color: #e50914;
+}
+
+/* Favorite Movie Section */
+.fav-section {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  /* align-items: center; */
+}
+
+.fav-movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  /* justify-content: center; */
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.fav-item {
+  width: 180px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.fav-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.fav-img:hover {
+  transform: scale(1.05);
+}
+
+.fav-title {
+  margin-top: 5px;
+  font-size: 14px;
+  color: white;
+}
+
+  
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-banner {
+    height: 60vh;
+  }
+
+  .movie-title {
+    font-size: 2.5rem;
+  }
+
+  .movie-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    height: 50vh;
+  }
+
+  .movie-title {
+    font-size: 2rem;
+  }
+
+  .movie-meta {
+    flex-wrap: wrap;
+  }
+
+  .watch-now-btn {
+    padding: 10px 20px;
+  }
+}
+

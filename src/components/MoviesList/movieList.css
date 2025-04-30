@@ -1,0 +1,242 @@
+.movies-page {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 60px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .logo > img {
+    width: 40px;
+    height: 40px;    
+    margin-bottom: 110px;
+    margin-top: 10px;
+  }
+  
+  .nav-menu {
+    position: relative;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .nav-menu li {
+    position: relative;
+  }
+  
+  .nav-menu a {
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  
+  .nav-menu a:hover {
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .nav-menu a.active {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .nav-menu svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .nav-menu img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* Tooltip Effect */
+  .nav-menu a::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none;
+  }
+  
+  .nav-menu a:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-50%) translateX(5px);
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    margin-left: 60px;
+    padding: 40px;
+    background-color: #0f0f0f;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  
+  /* Movies Grid */
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 25px;
+  }
+  
+  .movie-card {
+    text-decoration: none;
+    color: white;
+    transition: transform 0.2s ease;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .movie-poster {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 2 / 3;
+    margin-bottom: 10px;
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .movie-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .movie-rating,
+  .movie-duration {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .movie-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  .movie-year {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Loading & Error */
+  .loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    border-top: 4px solid white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .error-message {
+    color: red;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .movies-grid {
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 15px;
+    }
+  
+    .main-content {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sidebar {
+      width: 50px;
+    }
+  
+    .main-content {
+      margin-left: 50px;
+      padding: 15px;
+    }
+  
+    .movies-grid {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 10px;
+    }
+  
+    .page-title {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+  }
+  

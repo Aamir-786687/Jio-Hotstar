@@ -1,0 +1,24 @@
+.tags{
+    width: 100%;
+    height: 75px;    
+    background-color: #060707;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag{
+    padding: 5px 15px;
+    background-color: #363636;
+    width: fit-content;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 35px;
+    color: white;
+    transition: 0.3s
+}
+.tag:hover{
+    background-color: #777777;
+}
