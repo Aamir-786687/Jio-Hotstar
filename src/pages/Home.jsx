@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Header from "../Components/Header/Header";
-import Sidebar from "../Components/Sidebar/Sidebar";
-import Fav_show from "../Components/Fav_show/Fav_show";
+import Header from "../components/Header/Header";
+import Sidebar from "../components/Sidebar/Sidebar";
+import Fav_show from "../components/Fav_show/Fav_show";
 import { Play, Plus } from "lucide-react";
 import "../styles/home.css";
 

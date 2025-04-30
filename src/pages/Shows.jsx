@@ -1,5 +1,5 @@
 import React from 'react'
-import ShowsList from '../Components/ShowsList/ShowsList'
+import ShowsList from '../components/ShowsList/ShowsList'
 
 const Shows = () => {
   return (
