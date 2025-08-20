@@ -7,7 +7,7 @@ import "../styles/myspace.css";
 
 const MySpace = () => {
   const [movies, setMovies] = useState([]);
-  const [activeProfile, setActiveProfile] = useState("Kheera");
+  const [activeProfile, setActiveProfile] = useState("User1");
 
   useEffect(() => {
     const fetchMovies = async () => {
@@ -31,10 +31,10 @@ const MySpace = () => {
   }, []);
 
   const profiles = [
-    { name: "Kheera", avatar: "🛡️", isActive: true },
-    { name: "Unknown", avatar: "😊", isActive: false },
+    { name: "User1", avatar: "🛡️", isActive: true },
+    { name: "User2", avatar: "😊", isActive: false },
     { name: "Aamir", avatar: "🕷️", isActive: false },
-    { name: "hgdhdhg", avatar: "😊", isActive: false },
+    { name: "User3", avatar: "😊", isActive: false },
     { name: "Kids", avatar: "👶", isActive: false },
     { name: "Add", avatar: "+", isActive: false, isAdd: true }
   ];
@@ -43,13 +43,13 @@ const MySpace = () => {
     {
       id: "1",
       title: "Laughter Chefs",
-      thumbnail_url: "https://via.placeholder.com/300x450/FFD700/000000?text=Laughter+Chefs",
+      thumbnail_url: "https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/5371/1740560295371-i",
       type: "Comedy"
     },
     {
       id: "2",
-      title: "I Am Groot",
-      thumbnail_url: "https://via.placeholder.com/300x450/228B22/FFFFFF?text=I+Am+Groot",
+      title: "Peaky Blinder",
+      thumbnail_url: "https://rukminim2.flixcart.com/image/850/1000/k0y6cnk0/poster/9/f/6/medium-peaky-blinders-tv-series-poster-for-room-office-13-inch-x-original-imafkm3uhgwyy3gn.jpeg?q=20&crop=false",
       type: "Marvel Studios",
       isDisney: true
     }
@@ -58,34 +58,38 @@ const MySpace = () => {
   const continueWatchingMovies = [
     {
       id: "3",
-      title: "Kesari Chapter 2",
-      thumbnail_url: "https://via.placeholder.com/200x300/FF6B35/FFFFFF?text=Kesari+Ch2",
-      progress: 65
+      title: "Interstellar",
+      thumbnail_url: "https://images-cdn.ubuy.co.in/6352289f38bb253c44612d53-interstellar-movie-poster-24-x-36-inches.jpg",
+      progress: 65,
+      language: "English, हिन्दी +5 more"
     },
     {
       id: "4",
-      title: "Criminal Justice: A Family Matter",
-      thumbnail_url: "https://via.placeholder.com/200x300/2C3E50/FFFFFF?text=Criminal+Justice",
-      progress: 45
+      title: "Django Unchained",
+      thumbnail_url: "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_.jpg",
+      progress: 45,
+      language: "English, हिन्दी +5 more"
     },
     {
       id: "5",
-      title: "Ironheart",
-      thumbnail_url: "https://via.placeholder.com/200x300/95A5A6/FFFFFF?text=Ironheart",
+      title: "Taare Zameen Par",
+      thumbnail_url: "https://m.media-amazon.com/images/I/611JgDfdb7L.jpg",
       progress: 30,
       language: "हिन्दी"
     },
     {
       id: "6",
-      title: "Ultimate Spider-Man",
-      thumbnail_url: "https://via.placeholder.com/200x300/E74C3C/FFFFFF?text=Ultimate+Spider-Man",
-      progress: 80
+      title: "Whiplash",
+      thumbnail_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIZQYke1hgTSW5mwGD7Ihggs20mD3Rg7rj7w&s",
+      progress: 30,
+      language: "English, हिन्दी +5 more"
     },
     {
       id: "7",
-      title: "Train to Busan",
-      thumbnail_url: "https://via.placeholder.com/200x300/34495E/FFFFFF?text=Train+to+Busan",
-      progress: 55
+      title: "The Green Mile",
+      thumbnail_url: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24429_p_v12_bf.jpg",
+      progress: 30,
+      language: "हिन्दी, English +5 more"
     }
   ];
 
@@ -159,7 +163,7 @@ const MySpace = () => {
 
           {/* Continue Watching Section */}
           <div className="continue-watching-section">
-            <h2 className="section-title">Continue Watching for {activeProfile}</h2>
+            <h2 className="section-title">Continue Watching for User1</h2>
             <div className="continue-watching-grid">
               {continueWatchingMovies.map((movie) => (
                 <div key={movie.id} className="continue-item">

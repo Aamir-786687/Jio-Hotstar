@@ -46,6 +46,7 @@
 
 .profiles-grid {
   display: flex;
+  margin-top: px;
   gap: 20px;
   overflow-x: auto;
   padding-bottom: 10px;
