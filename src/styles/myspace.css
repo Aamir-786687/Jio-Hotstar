@@ -1,0 +1,378 @@
+/* My Space page specific styles */
+
+.myspace-content {
+  padding: 20px 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Profiles Section */
+.profiles-section {
+  margin-bottom: 50px;
+}
+
+.profiles-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.edit-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.edit-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.profiles-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.profiles-grid::-webkit-scrollbar {
+  height: 5px;
+}
+
+.profiles-grid::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.profiles-grid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.profile-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  min-width: 80px;
+}
+
+.profile-item:hover {
+  transform: translateY(-5px);
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: 3px solid transparent;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.profile-item.active .profile-avatar {
+  border-color: #f5c518;
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.3);
+}
+
+.profile-item.add-profile .profile-avatar {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px dashed rgba(255, 255, 255, 0.3);
+}
+
+.avatar-emoji {
+  font-size: 2rem;
+}
+
+.profile-name {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-weight: 500;
+}
+
+.active-indicator {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #f5c518;
+  color: #0a0a0a;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* Watchlist Section */
+.watchlist-section {
+  margin-bottom: 50px;
+}
+
+.watchlist-section .section-title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.watchlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.watchlist-item {
+  transition: transform 0.3s ease;
+}
+
+.watchlist-item:hover {
+  transform: translateY(-5px);
+}
+
+.movie-poster {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.poster-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.watchlist-item:hover .poster-image {
+  transform: scale(1.05);
+}
+
+.movie-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.watchlist-item:hover .movie-overlay {
+  opacity: 1;
+}
+
+.play-btn {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #0a0a0a;
+}
+
+.play-btn:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.movie-info {
+  text-align: center;
+}
+
+.movie-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 8px 0;
+  line-height: 1.3;
+}
+
+.disney-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Continue Watching Section */
+.continue-watching-section {
+  margin-bottom: 50px;
+}
+
+.continue-watching-section .section-title {
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.continue-watching-grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+}
+
+.continue-watching-grid::-webkit-scrollbar {
+  height: 5px;
+}
+
+.continue-watching-grid::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.continue-watching-grid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.continue-item {
+  min-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.continue-item:hover {
+  transform: translateY(-5px);
+}
+
+.continue-item .movie-poster {
+  height: 250px;
+  margin-bottom: 12px;
+}
+
+.continue-item .movie-overlay {
+  opacity: 0;
+}
+
+.continue-item:hover .movie-overlay {
+  opacity: 1;
+}
+
+.continue-item .play-btn {
+  width: 40px;
+  height: 40px;
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(to right, #f5c518, #e2b616);
+  border-radius: 0 0 12px 12px;
+}
+
+.language-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .myspace-content {
+    padding: 15px 3%;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .profiles-grid {
+    gap: 15px;
+  }
+  
+  .profile-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .watchlist-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .continue-watching-grid {
+    gap: 15px;
+  }
+  
+  .continue-item {
+    min-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profiles-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .profiles-grid {
+    gap: 12px;
+  }
+  
+  .profile-avatar {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .watchlist-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .continue-watching-grid {
+    gap: 12px;
+  }
+  
+  .continue-item {
+    min-width: 160px;
+  }
+}

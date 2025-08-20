@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import axios from "axios"
-import { Home, Search, Film, Heart, Clapperboard, Settings, } from "lucide-react"
-import JClogo from "../../assets/jio-logo.png";
-import pic from '../../assets/Avatar.png'
 import "./movieList.css"
 
 const MoviesList = () => {
@@ -49,51 +46,30 @@ const MoviesList = () => {
   }
 
   return (
-    <>
-    <div className="movies-page">
-      {/* Sidebar */}
-      <aside className="sidebar">
-        <div className="logo">
-        <img src={JClogo} alt="JCLOGO" />
-        </div>
-        <nav className="nav-menu">
-            <ul>
-                <li><a href="/" className="active" data-tooltip="Home"><Home /></a></li>
-                <li><a href="#" data-tooltip="Search"><Search /></a></li>
-                <li><a href="/movies" data-tooltip="Movies"><Film /></a></li>
-                <li><a href="/Shows" data-tooltip="TV Shows"><Clapperboard  /></a></li>
-                <li><a href="#" data-tooltip="Favorites"><Heart /></a></li>
-                <li><a href="/" data-tooltip="Home"><img src={pic} alt="Avatar" /></a></li>
-            </ul>
-        </nav>
-      </aside>
+    <div className="movies-content">
+      <h1 className="page-title">Movies</h1>
 
-      <main className="main-content">
-        <h1 className="page-title">Movies</h1>
-
-        <div className="movies-grid">
-          {movies.map((movie) => (
-            <Link to={`/movie/${movie.id}`} key={movie.id} className="movie-card">
-              <div className="movie-poster">
-                <img
-                  src={movie.thumbnail_url || "https://via.placeholder.com/300x450?text=No+Image"}
-                  alt={movie.title}
-                />
-                <div className="movie-overlay">
-                  <span className="movie-rating">{movie.rating}</span>
-                  <span className="movie-duration">{movie.duration} min</span>
-                </div>
+      <div className="movies-grid">
+        {movies.map((movie) => (
+          <Link to={`/movie/${movie.id}`} key={movie.id} className="movie-card">
+            <div className="movie-poster">
+              <img
+                src={movie.thumbnail_url || "https://via.placeholder.com/300x450?text=No+Image"}
+                alt={movie.title}
+              />
+              <div className="movie-overlay">
+                <span className="movie-rating">{movie.rating}</span>
+                <span className="movie-duration">{movie.duration} min</span>
               </div>
-              <h3 className="movie-title">{movie.title}</h3>
-              <div className="movie-year">
-                {movie.release_date ? movie.release_date.slice(0, 4) : "N/A"}
-              </div>
-            </Link>
-          ))}
-        </div>
-      </main>
+            </div>
+            <h3 className="movie-title">{movie.title}</h3>
+            <div className="movie-year">
+              {movie.release_date ? movie.release_date.slice(0, 4) : "N/A"}
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
-    </>
   )
 }
 

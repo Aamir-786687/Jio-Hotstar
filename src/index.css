@@ -24,3 +24,16 @@ button {
   cursor: pointer;
 }
 
+/* Global layout classes for pages with sidebar */
+.main-content-area {
+  margin-left: 60px;
+  padding: 20px;
+  width: calc(100% - 60px);
+}
+
+.page-container {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  color: white;
+}
+

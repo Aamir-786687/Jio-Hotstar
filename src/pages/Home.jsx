@@ -1,7 +1,5 @@
-"use client";
-
 import React, { useEffect, useState } from "react";
-import Header from "../components/Header/Header";
+// import Header from "../components/Header/Header";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Fav_show from "../components/Fav_show/Fav_show";
 import { Play, Plus } from "lucide-react";
@@ -51,11 +49,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-container">
+    <div className="page-container">
       <Sidebar />
 
       <div className="main-content-area">
-        <Header movies={movies} />
+        {/* <Header movies={movies} /> */}
 
         {featuredMovie && (
           <div

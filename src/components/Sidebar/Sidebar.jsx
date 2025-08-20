@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <aside className="sidebar">
       <div className="logo">
-        <img src={JClogo || "/placeholder.svg"} alt="JCLOGO" />
+        <img src={JClogo}  alt="JCLOGO" />
       </div>
       <nav className="nav-menu">
         <ul>
@@ -17,7 +17,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="#" data-tooltip="Search">
+            <Link to="/search" data-tooltip="Search">
               <Search />
             </Link>
           </li>
@@ -37,7 +37,7 @@ const Sidebar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" data-tooltip="Home">
+            <Link to="/myspace" data-tooltip="My Space">
               <User />
             </Link>
           </li>
