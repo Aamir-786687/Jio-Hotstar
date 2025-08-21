@@ -1,12 +1,56 @@
-# React + Vite
+# 🎬 Jio Hotstar Clone  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview  
+This is a Jio Hotstar Clone web application built with React and Firebase. It replicates the core UI and features of Disney+ Hotstar, allowing users to explore movies, TV shows, and other content in a seamless streaming-like interface. Firebase is used for storing and managing data.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack  
+**Frontend:**  
+- React.js  
+- Tailwind CSS  
 
-## Expanding the ESLint configuration
+**Backend & Database:**  
+- Firebase Firestore / Realtime Database  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Hosting:**  
+- Firebase Hosting  
+
+---
+
+## 🚀 Features  
+- 🎥 Movie & TV show listings with dynamic content rendering  
+- 📱 Fully responsive and modern UI  
+- 🌙 Light/Dark mode support  
+- 🔥 Firebase integration for storing and managing data  
+- ⚡ Smooth navigation and user-friendly interface  
+
+---
+
+## 📂 Folder Structure  
+📦 jio-hotstar-clone  
+
+├── 📂 public               # Static assets (images, icons, etc.)  
+├── 📂 src  
+│   ├── 📂 components       # Reusable UI components (Navbar, Sidebar, Card, etc.)  
+│   ├── 📂 pages            # Page components (Home, Movies, TV, Details)  
+│   ├── 📂 assets           # Images and other static assets  
+│   ├── 📜 App.js           # Main application file  
+│   ├── 📜 index.js         # Entry point  
+│   ├── 📜 firebase.js      # Firebase configuration  
+├── 📜 .gitignore           # Git ignore file  
+├── 📜 package.json         # Project dependencies  
+├── 📜 README.md            # Project documentation  
+
+---
+
+## 🛠️ Installation & Setup  
+
+Clone the repository:  
+# npm install
+Run the development server:
+# npm run dev
+
+
+git clone https://github.com/Aamir-786687/Jio_Hotstar_Clone.git
+cd Jio_Hotstar_Clone
