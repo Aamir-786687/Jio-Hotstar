@@ -21,7 +21,6 @@ This is a Jio Hotstar Clone web application built with React and Firebase. It re
 ## 🚀 Features  
 - 🎥 Movie & TV show listings with dynamic content rendering  
 - 📱 Fully responsive and modern UI  
-- 🌙 Light/Dark mode support  
 - 🔥 Firebase integration for storing and managing data  
 - ⚡ Smooth navigation and user-friendly interface  
 
