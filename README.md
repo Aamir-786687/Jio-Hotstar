@@ -14,7 +14,7 @@ This is a Jio Hotstar Clone web application built with React and Firebase. It re
 - Firebase Firestore / Realtime Database  
 
 **Hosting:**  
-- Firebase Hosting  
+- Vercel Hosting
 
 ---
 
